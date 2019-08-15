@@ -1,13 +1,11 @@
 ﻿<?php
 class DataBase {
 
-    private $host         = "172.17.191.110";
-    private $user         = "admin";
-    private $password     = "conexao123tigre";
+    private $host         = "xxxxxxxxxxxxxxxxx";
+    private $user         = "xxxxxxxxxxxxxxxxx";
+    private $password     = "xxxxxxxxxxxxxxxxx";
     private $db           = "db_mining";
-    private $db2          = "analytics";
     private $conn         = null;
-    private $conn2        = null;
 
     public function __construct(){
         $this->conectarDB();
