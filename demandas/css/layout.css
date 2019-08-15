@@ -1,0 +1,129 @@
+#container {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+#chart {
+  background: #ececec;
+  font-family: Arial, Helvetica, sans-serif !important;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  position:relative;
+}
+
+#button {
+  padding: 5px 20px;
+  font-weight: bolder;
+  text-align: center;
+  position: relative;
+  left: 68px;
+  top: 20px;
+  margin-left:7px;
+  position: absolute;
+}
+
+.button{
+  display: none;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 40px;
+  height: 82px;
+  width: 72%;
+  text-align: left;
+  float: right;
+  position: relative;
+  margin-bottom: 0px !important;
+}
+.sub-title{
+  position: absolute;
+  font-size: 30px;
+  left: 274px;
+  top: 42px;
+}
+text{
+    cursor: pointer;
+    font-size:20px;
+}
+
+.grandparent text {
+  font-weight: bold;
+}
+
+rect {
+  fill: none;
+  stroke: #fff;
+}
+
+rect.parent,
+.grandparent rect {
+  stroke-width: 2px;
+}
+
+rect.parent {
+    pointer-events: none;
+}
+
+.grandparent rect {
+  fill: orange;
+}
+
+.grandparent:hover rect {
+  fill: #ee9700;
+}
+
+.children rect.parent,
+.grandparent rect {
+  cursor: pointer;
+}
+
+.children rect.parent {
+  fill: #bbb;
+  fill-opacity: .5;
+}
+
+.children:hover rect.child {
+  fill: #bbb;
+}
+
+.ctext{
+    font-size:18px;
+}
+
+#info {	
+  padding: 2px;
+  font: 25px sans-serif;
+  color: black;
+  font-weight: bolder;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+  margin: 35px 10px;
+  position: relative;
+}
+
+#required{
+  float:right;
+}
+
+.width-max{
+  max-width: 187px;
+}
+
+#filtro{
+  float: right;
+  height: 30px;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+#responsavel{
+  padding-right: 0px !important
+}
+
+
+

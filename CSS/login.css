@@ -1,0 +1,36 @@
+.dropdown-menu{
+  padding: 20px;
+  padding-bottom: 10px;
+  left: -185px;
+  width: 260px !important;
+  margin-top: 15px !important;
+  position: absolute !important;
+}   
+
+.login {
+  margin-bottom: 10px;
+}
+
+.navbar-default{
+  background: #f8d117
+}
+
+.dimep {
+  display:inline-block;
+  *display:inline; /*IE7*/
+  *zoom:1; /*IE7*/
+  background:blue;
+  color:white;
+  margin-right:10px;
+}
+
+.tooltip {
+  font-family: Arial;
+  font-size: 20px;
+  max-width: 200px;
+  position: absolute;
+}
+
+body{
+  font-family: arial;
+}

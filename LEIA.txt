@@ -1,0 +1,34 @@
+##############################################################################################################
+############################################  HOW IT WORKS  ##################################################
+############################################################################################################## 
+
+Hierarquia do projeto:
+
+                                    /analytics/
+                                       |  |
+                                _______|  |_______
+                               |                  |
+                               |                  |
+                          /demandas/          /modelos/
+
+/analytics/         : Pasta "main" contendo todo projeto principal;                        
+
+/analytics/demandas/: Pasta contendo todo o código do Gráfico de demandas;
+
+/analytics/modelos/ : Pasta contendo todo o código do Gráfico de modelos.
+                        
+                        
+                        
+                        
+                        
+                        
+##############################################################################################################
+######################## ANOTAÇÕES DE TROCA DE DOMÍNIOS PARA DEPLOY NO SERVIDOR ##############################
+##############################################################################################################
+
+treemap.js      ----> /demandas/javascript/
+
+cabecalho.php   ----> /header_footer/
+
+treemap.js      ----> /modelos/javascript/
+
